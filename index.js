@@ -10,7 +10,6 @@ const VoiceResponse = twilio.twiml.VoiceResponse;
 const express = require('express')
 const bodyParser = require('body-parser');
 
-const { Pool } = require('pg');
 var mysql = require('mysql');
 var pool  = mysql.createPool({
    host     : 'remotemysql.com',
